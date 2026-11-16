@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<OutputType>WinExe</OutputType>
+	<TargetFramework>net8.0-windows</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	  <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+	<Compile Include="..\Bài 1\SinhVien.cs" Link="Bài 1\SinhVien.cs" />
+	<Compile Include="..\Bài 1\FrmSinhVien.cs" Link="Bài 1\FrmSinhVien.cs" />
+	<Compile Include="..\Bài 2\FrmDuyet.cs" Link="Bài 2\FrmDuyet.cs" />
+	<Compile Include="..\Bài 3\FrmEditor.cs" Link="Bài 3\FrmEditor.cs" />
+	<Compile Include="..\Bài 3\FrmTimThay.cs" Link="Bài 3\FrmTimThay.cs" />
+  </ItemGroup>
+</Project>
